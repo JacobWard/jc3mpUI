@@ -1,20 +1,12 @@
 {
   "name": "jc3mp-serverLogin",
-  "version": "1.0.1",
-  "description": "Features a news system on you're server",
+  "version": "1.0.0",
+  "description": "Features a new Server Login System.",
   "authors": [
       {
         "name": "Jaocb 'theWebKeyGuy' Ward",
         "email": "theWebKeyGuy@gmail.com",
         "url": "http://thewardsweb.us/"
       }
-  ],
-  "contributors": [],
-  "license": "MIT",
-  "devDependencies": {
-    "eslint": "^2.2.0",
-    "eslint-config-airbnb": "^9.0.1",
-    "eslint-plugin-react": "^5.2.2"
-  }
-
+  ]
 }
