@@ -1,0 +1,12 @@
+{
+  "name": "jc3mp-serverLogin",
+  "version": "1.0.0",
+  "authors": [
+      {
+        "name": "Jaocb 'theWebKeyGuy' Ward",
+        "email": "theWebKeyGuy@gmail.com",
+        "url": "http://thewardsweb.us/"
+      }
+  ],
+  "jcmp_dependencies": []
+}

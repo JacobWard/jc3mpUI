@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>TW-RP ServerLogin</title>
+
+	<!-- Fonts -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+	
+    <!-- CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/mdb.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+	
+	<style>
+	#forms {
+		
+	}
+	body, html { 
+		margin: 0px;
+		background: transparent !important;
+		font-family: 'Open Sans', sans-serif;
+	}
+	h1 {
+		font-family: 'Anton', sans-serif;
+		text-align: center;
+	}
+	</style>
+	
+
+  </head>
+  <body id='page'>
+	<div class="container">
+		<div style="border-radius: 0px; margin-top: 15%;" class="jumbotron">
+			<div class="row">
+				<div class="view" style="padding-bottom: 45px; padding-top: 45px; margin-bottom: 25px;" class="col-md-12">
+						<img src="images/logo.png" class="img-responsive center-block" />
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div id="eventRegister">
+						<h1>New To TW-RP?</h1>
+						<p>Come and Check out our new Roleplay Server in progress.</p>
+						<a id="btnRegisterTog" class="btn btn-default">Register</a>
+					</div>
+					<div id="eventLogin">
+						<h1>Already With us?</h1>
+						<p>Head on to the login page now and get started with your new life! ;)</p>
+						<a id="btnLoginTog" class="btn btn-default">Login</a>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div id="forms">
+						<div id="login-form">
+							<div id="loginError"></div>
+							<div class="md-form">
+								<p id="playerName"></p>
+							</div>
+							<div class="md-form">
+								<i class="fa fa-envelope prefix"></i>
+								<input  name="email-login" id="email-login" readonly class="form-control"  onfocus="if (this.hasAttribute('readonly')) { this.removeAttribute('readonly'); this.blur(); this.focus();}" type="email" autocomplete="off" />
+								<label for="email-login">Your email</label>
+							</div>
+							<div class="md-form">
+								<i class="fa fa-lock prefix"></i>
+								<input  name="password-login" id="password-login" class="form-control"  type="password" readonly  onfocus="this.removeAttribute('readonly');" autocomplete="off" />
+								<label for="password-login">Your password</label>
+							</div>	
+							<div class="text-center">
+								<button id="btnLogin" class="btn btn-primary btn-lg waves-effect">Login</button>
+							</div>							
+						</div>
+						
+						<div id="register-form">
+							<div id="registerError"></div>
+							<div class="md-form">
+								<i class="fa fa-envelope prefix"></i>
+								<input  name="email-register" id="email-register" readonly class="form-control"  onfocus="if (this.hasAttribute('readonly')) { this.removeAttribute('readonly'); this.blur(); this.focus();}" type="email" autocomplete="off" />
+								<label for="email-register">Your email</label>
+							</div>
+							<div class="md-form">
+								<i class="fa fa-lock prefix"></i>
+								<input  name="password-register" id="password-register" class="form-control"  type="password" readonly  onfocus="this.removeAttribute('readonly');" autocomplete="off" />
+								<label for="password-register">Your password</label>
+							</div>	
+							<div class="text-center">
+								<button id="btnRegister" class="btn btn-primary btn-lg waves-effect">Register</button>
+							</div>						
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/tether.min.js"></script>
+	
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+	
+	<script type="text/javascript" src="functions/functions.js"></script>
+	
+  </body>
+</html>
